@@ -28,3 +28,9 @@ GIT es el SCV (sistema de control de versiones) de código abierto más utilizad
 12_ <git pull>      " fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local"
 
 13_ <git merge>     "se usa para fusionar una rama con otra rama activa: <git merge [branch-name]>"
+
+14_ <git diff>       "se usa para hacer una lista de conflictos. Para poder ver conflictos con respecto al archivo base, usa:
+<git diff --base [file-name]> El siguiente comando se usa para ver los conflictos que hay entre ramas antes de fusionarlas:
+<git diff [source-branch]> <target-branch>"
+
+15_ <git
