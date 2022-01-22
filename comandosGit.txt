@@ -12,3 +12,5 @@ GIT es el SCV (sistema de control de versiones) de código abierto más utilizad
 4_ <git commit -m "mensaje">          "creará una instantánea de los cambios y la guardará en el directorio git. git commit –m “El mensaje que acompaña al commit va aquí”"
 
 5_  <git status>       " muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados"
+
+6_  <git push>       "se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto. Aquí está la estructura     básica del código: <git push  origin <master>> Reemplaza <master> con la rama en la que quieres enviar los cambios cuando no quieras enviarlos a la rama maestra."
