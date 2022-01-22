@@ -15,7 +15,7 @@ GIT es el SCV (sistema de control de versiones) de código abierto más utilizad
 
 6_  <git push>       "se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto. Aquí está la estructura     básica del código: <git push  origin <master>> Reemplaza <master> con la rama en la que quieres enviar los cambios cuando no quieras enviarlos a la rama maestra."
 
-7_  <git checkout>      "crea ramas y te ayuda a navegar entre ellas. Por ejemplo, el siguiente comando crea una nueva y automáticamente se cambia a ella: command <git checkout -b <branch-name>> Para cambiar de una rama a otra, sólo usa: <git checkout <branch-name>>"
+7_  <git checkout>      "crea ramas y te ayuda a navegar entre ellas. Por ejemplo, el siguiente comando crea una nueva y automáticamente se cambia a ella: command <git checkout -b <branch-name>> Para cambiar de una rama a otra, sólo usa: <git checkout <branch-name>>, tambien se usa el <git checkout [numero de hast]> para cambiar de versión del proyecto"
 
 8_ <git remote>      "te permite ver todos los repositorios remotos. El siguiente comando listará todas las conexiones junto con sus URLs: <git remote -v>"
 
