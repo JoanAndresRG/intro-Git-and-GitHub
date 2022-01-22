@@ -33,4 +33,17 @@ GIT es el SCV (sistema de control de versiones) de código abierto más utilizad
 <git diff --base [file-name]> El siguiente comando se usa para ver los conflictos que hay entre ramas antes de fusionarlas:
 <git diff [source-branch]> <target-branch>"
 
-15_ <git
+15_ <git tag>        "marca commits específicos. Los desarrolladores lo usan para marcar puntos de lanzamiento como v1.0 y v2.0.
+<git tag 1.1.0 [instert-commitID-here]>"
+
+16_ <git log>        "se usa para ver el historial del repositorio listando ciertos detalles de la confirmación. Al ejecutar el comando se obtiene una salida como ésta"
+
+17_ <git reset>      "sirve para resetear el index y el directorio de trabajo al último estado de confirmación.
+<git reset - -hard HEAD>"
+
+18_ <git rm>         "se puede usar para remover archivos del index y del directorio de trabajo.
+<git rm filename.txt>"
+
+19_ <git stash>      "guardará momentáneamente los cambios que no están listos para ser confirmados. De esta manera, pudes volver al proyecto más tarde. <git stash>"
+
+20_ <git show>       "se usa para mostrar información sobre cualquier objeto git. <git show>"
