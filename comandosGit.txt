@@ -1,0 +1,14 @@
+                                            ¿Qué es GIT?
+GIT es el SCV (sistema de control de versiones) de código abierto más utilizado que te permite rastrear los cambios realizados en los archivos. Las empresas y los programadores suelen utilizar el GIT para colaborar en el desarrollo de software y aplicaciones.
+
+
+1_ < git init >      "creará un nuevo repositorio local GIT. El siguiente comando de Git creará un repositorio en el directorio actual o puede especificar el directorio donde se creara el repositorio git, con el comando <git init [nombre proyecto]> "
+
+2_  <git config --global o --local user.name o user.email>     "puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario y tipo de formato, etc. Por ejemplo, el siguiente comando se usa para establecer un email:
+<git config --global user.email tuemail@ejemplo.com>"
+
+3_  <git add>         "se usa para agregar archivos al área de preparación. Por ejemplo, el siguiente comando de Git básico indexará el archivo temp.txt: <git add <temp.txt> " 
+
+4_ <git commit -m "mensaje">          "creará una instantánea de los cambios y la guardará en el directorio git. git commit –m “El mensaje que acompaña al commit va aquí”"
+
+5_  <git status>       " muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados"
