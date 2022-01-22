@@ -47,3 +47,26 @@ GIT es el SCV (sistema de control de versiones) de código abierto más utilizad
 19_ <git stash>      "guardará momentáneamente los cambios que no están listos para ser confirmados. De esta manera, pudes volver al proyecto más tarde. <git stash>"
 
 20_ <git show>       "se usa para mostrar información sobre cualquier objeto git. <git show>"
+
+21_ <git fetch>      "le permite al usuario buscar todos los objetos de un repositorio remoto que actualmente no se encuentran en el directorio de trabajo local. <git fetch origin>"
+
+22_ <git ls-tree>        "te permite ver un objeto de árbol junto con el nombre y modo de cada ítem, y el valor blob de SHA-1. Si quieres ver el HEAD, usa: <git ls-tree HEAD>"
+
+23_ <git cat-file>       "se usa para ver la información de tipo y tamaño de un objeto del repositorio. Usa la opción -p junto con el valor SHA-1 del objeto para ver la información de un objeto específico, por ejemplo: <git cat-file –p d670460b4b4aece5915caf5c68d12f560a9fe3e4>"
+
+24_ <git grep>       "le permite al usuario buscar frases y palabras específicas en los árboles de confirmación, el directorio de trabajo y en el área de preparación. Para buscar por www.hostinger.com en todos los archivos, usa: <git grep “www.hostinger.com”>"
+
+25_ <git gitk>          "muestra la interfaz gráfica para un repositorio local. Simplemente ejecuta: gitk"
+
+26_ <git instaweb>      "te permite explorar tu repositorio local en la interfaz GitWeb. Por ejemplo: <git instaweb –http=webrick>"
+
+27_ <git gc>             "limpiará archivos innecesarios y optimizará el repositorio local. <git gc>"
+
+28_ <git archive>        "le permite al usuario crear archivos zip o tar que contengan los constituyentes de un solo árbol de repositorio. Por ejemplo: <git archive - -format=tar master>"
+
+29_ <git prune>          "elimina los objetos que no tengan ningún apuntador entrante. <git prune>"
+
+30_ <git fsck>           "realiza una comprobación de integridad del sistema de archivos git e identifica cualquier objeto corrupto
+<git fsck>"
+
+32_ <git rebase>        " se usa para aplicar ciertos cambios de una rama en otra. Por ejemplo:"
