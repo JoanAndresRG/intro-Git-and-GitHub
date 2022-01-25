@@ -1,66 +1,59 @@
-using System;
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
-namespace consoleNet
-{
-    public class squareMatriz
-    {
-        public static void Main(string[] args)
-        {
-            //Se intancia un objeto de la clase Randon
-            Random rand = new Random();
+// using System;
+// using System.Linq;
+// using System.Collections;
+// using System.Collections.Generic;
+// namespace consoleNet
+// {
+//     public class squareMatriz
+//     {
+//         /*Solución a reto de haker rank hace 
+//         falta los valores de entrada que los obtiene del programa*/
+//         public static void Main(string[] args)
+//         {
+//             int leftRight = 0;
+//             int rightLeft = 0;
+//             int row = 0;
+//             int fin = 0;
+//             foreach (var l in arr) fin++;
 
-            List<List<int>> Matriz = new List<List<int>>();
-            for (int i = 0; i < 3; i++)
-            {
-                int numRandom = rand.Next(1, 21);
-                List<int> Data = new List<int>();
-                Data.Add(numRandom);
-                Data.Add(numRandom);
-                Data.Add(numRandom);
-                Matriz.Add(Data);
-            }
-            foreach (var list in Matriz)
-            {
-                Console.Write("|");
-                foreach (var element in list)
-                {
-                    Console.Write(element + "|");
-                }
-                Console.WriteLine();
-            }
-            diagonalDifference(Matriz);
-            Console.WriteLine("-------------------------------------------------------------------------------------------------");
-            static void diagonalDifference(List<List<int>> arr)
-            {
-                int lr = 0;
-                int rl = 0;
-                int cont1 = 0;
-                int cont2 = 0;
-                foreach (var list in arr)
-                {
-                    foreach (var element in list)
-                    {
-                        if (cont1 == 0 && cont2 == 0) lr += element;
-                        else if (cont1 == 0 && cont2 == 2) rl += element;
-                        else if (cont1 == 1 && cont2 == 1) {
-                            lr += element;
-                            rl += element;
-                        }
-                        else if (cont1 == 2 && cont2 == 0) rl += element;
-                        else if (cont1 == 2 && cont2 == 2) lr += element;
-                        cont2 ++;
-                    }
-                    cont1 ++;
-                }
-                Console.WriteLine("LeftRight: "+lr+"\nRightLeft: "+rl);
+//             fin = fin;
+//             Console.WriteLine(fin);
+//             foreach (var list in arr)
+//             {
+//                 int col = 0;
+//                 foreach (int num in list)
+//                 {
+//                     if (row == 0 && col == 0) leftRight += num;
+//                     if (row == fin - 1 && col == fin - 1) leftRight += num;
+//                     if (row == 0 && col == fin - 1) rightLeft += num;
+//                     if (row == fin - 1 && col == 0) rightLeft += num;
+//                     if (fin % 2 != 0)
+//                     {
+//                         if (row == Math.Abs(fin / 2) && col == Math.Abs(fin / 2))
+//                         {
+//                             leftRight += num;
+//                             Console.WriteLine(num);
+//                             rightLeft += num;
+//                         }
+//                     }
+//                     if (row > 0 && row < fin - 1 && col > 0 && col < fin - 1 && row == col)
+//                     {
+//                         leftRight += num;
+//                         Console.WriteLine("lr: " + num);
+//                     }
+//                     if (row > 0 && row < fin - 1 && col > 0 && col < fin - 1 && (row + col) + 1 == fin)
+//                     {
+//                         rightLeft += num;
+//                         Console.WriteLine("rl: " + num);
+//                     }
+//                     col++;
+//                 }
+//                 row++;
+//             }
 
-            }
-            
-        }
-
-
-
-    }
-}
+//             int result = Math.Abs(leftRight - rightLeft);
+//             return result;
+//         }
+//     }
+// }
+// }
